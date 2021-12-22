@@ -14,6 +14,7 @@
         "--share=network",
         "--device=all",
         "--filesystem=xdg-download",
+        "--env=GDK_GL=gles",
         "--talk-name=org.freedesktop.Notifications",
         "--own-name=chat.fluffy.fluffychat"
     ],
