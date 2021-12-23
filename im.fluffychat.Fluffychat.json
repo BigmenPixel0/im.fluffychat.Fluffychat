@@ -47,10 +47,6 @@
         {
             "name": "fluffychat",
             "buildsystem": "simple",
-            "only-arches": [
-                "x86_64",
-                "aarch64"
-            ],
             "build-commands": [
                 "ls fluffychat",
                 "cp -r fluffychat /app/fluffychat",
